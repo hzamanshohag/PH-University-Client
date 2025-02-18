@@ -12,12 +12,6 @@ import PHInput from "../components/form/PHInput";
 export default function Login() {
   const dispatch = useAppDispatch();
   const navigate = useNavigate();
-  // const { register, handleSubmit } = useForm({
-  //   defaultValues: {
-  //     id: "A-0001",
-  //     password: "admin123",
-  //   },
-  // });
 
   const defaultValues = {
     id: "A-0001",
